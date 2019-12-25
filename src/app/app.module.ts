@@ -9,6 +9,7 @@ import {BlogDetailComponent} from './blog-detail/blog-detail.component';
 import {HttpClientModule} from '@angular/common/http';
 import {AppRoutingModule} from './app-routing/app-routing.module';
 import {ReactiveFormsModule} from '@angular/forms';
+import {TodoComponent} from './todo/todo.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import {ReactiveFormsModule} from '@angular/forms';
     BlogComponent,
     BlogEditComponent,
     BlogDetailComponent,
+    TodoComponent,
   ],
   imports: [
     BrowserModule,
